@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+
+    <TextView
+        android:id="@+id/textViewTitleSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/editTextUsernameSignUp"
+        android:layout_below="@id/textViewTitleSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="20dp"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordSignUp"
+        android:layout_below="@id/editTextUsernameSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:hint="Password"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPasswordSignUp"
+        android:layout_below="@id/editTextPasswordSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:layout_margin="20dp"
+        android:hint="Confirm Password"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/editTextConfirmPasswordSignUp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"/>
+
+</RelativeLayout>
